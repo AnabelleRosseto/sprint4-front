@@ -16,6 +16,7 @@ function Integrantes() {
             foto={Foto2}
             nome="Isis Macedo"
             rm="561497"
+            turma="1TDSR"
             git="https://github.com/isismodd"
             linkedin="https://www.linkedin.com/in/isis-macedo-aa515920b/"
           />
@@ -23,6 +24,7 @@ function Integrantes() {
           <IntegranteCard
             foto={Foto1}
             nome="Ana Clara Oliveira"
+            turma="1TDSR"
             rm="561957"
             git="https://github.com/nanabaa"
             linkedin="https://www.linkedin.com/in/anaclaraolinasc"
@@ -31,6 +33,7 @@ function Integrantes() {
           <IntegranteCard
             foto={Foto3}
             nome="Anabelle Rosseto"
+            turma="1TDSR"
             rm="564526"
             git="https://github.com/AnabelleRosseto"
             linkedin="https://www.linkedin.com/in/anabelle-rosseto-rodrigues"

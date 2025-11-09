@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 function Navbar() {
   return (
     <>
@@ -29,6 +30,12 @@ function Navbar() {
             FAQ
           </Link>
         </li>
+        <li>
+          <Link to="/login" className="hover:text-gray-400 font-bold text-lg sm:text-xl">
+            Lista de Pacientes
+          </Link>
+        </li>
+
       </ul>
     </nav>
   </>

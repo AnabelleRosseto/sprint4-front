@@ -12,7 +12,7 @@ function Pacientes(){
     function getConsulta(){
         fetch("https://preztech-561497.onrender.com/consultas")
         .then(response => response.json())
-        .then(data => console.log(data))
+        .then(data => {return data as Consulta})
     }
 
     useEffect( () => getConsulta(), [])

@@ -13,17 +13,18 @@ import Pacientes from "./pages/Pacientes";
 function App() {
   return (
     <>
-      <Navbar />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/integrantes" element={<Integrantes />} />
-          <Route path="/solucoes" element={<Solucoes />} />
-          <Route path="/contato" element={<Contato />} />
-          <Route path="/faq" element={<FAQ />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/pacientes" element={<Pacientes />} />
-        </Routes>
+    
+        <Navbar />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/integrantes" element={<Integrantes />} />
+            <Route path="/solucoes" element={<Solucoes />} />
+            <Route path="/contato" element={<Contato />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/pacientes" element={<Pacientes />} />
+          </Routes>
         </main>
 
         <Footer />
