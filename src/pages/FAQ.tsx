@@ -1,7 +1,7 @@
 function FAQ() {
   return (
     <>
-      <section className=" h-[53.5rem] flex flex-col justify-center items-center">
+      <section className=" h- flex flex-col justify-center items-center">
         <h1 className="text-3xl text-text ">Dúvidas Frequentes</h1>
         <div className="lg:ml-50 self-start mt-30 flex flex-col  text-text !justify-self-start !items-start gap-10">
             <div className="p-4 cursor-pointer">

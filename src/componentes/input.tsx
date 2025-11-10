@@ -1,4 +1,3 @@
-"use client" // Declaração para uso do cliente
 
 import type { InputHTMLAttributes, ChangeEvent,  ReactNode } from "react"
 import { useCallback, useState, useMemo } from "react"

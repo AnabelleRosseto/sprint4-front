@@ -1,4 +1,4 @@
-"use client" // Declaração para uso do cliente
+
 
 import type { ButtonHTMLAttributes, PropsWithChildren, MouseEvent } from "react"
 import { useCallback } from "react"
